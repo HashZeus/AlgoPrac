@@ -6,7 +6,7 @@ public class FirstNonRepeatCharacter {
 
         for (char c : s.toCharArray()) {
             counter[c - 'a']++;
-            System.out.println(c+" "+(c-'a')+" "+counter[c - 'a']);
+            
         }
         for (char c : s.toCharArray()) {
             if (counter[c - 'a'] == 1) return c;
