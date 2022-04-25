@@ -1,4 +1,4 @@
-public class FirstNonRepeatCharacter {
+public class FirstNonRepeatingCharacter {
 
     static char firstNonRepeatingCharacter(String s) {
 
